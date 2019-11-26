@@ -1,0 +1,41 @@
+#container  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid gray 1PX;
+    margin-left: 33%;
+    margin-right: 33%;
+    background-image: url("ring.jpg");
+    background-size: 45%;
+}
+
+#item:hover, #item2:hover , #item3:hover  {
+    border: grey solid 1px;
+    border-radius: 50px;
+}
+
+
+#container2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#IA1
+{
+    background-repeat: no-repeat;
+    width: 250PX;
+    height: 250px;
+    border-radius: 140PX;
+    border: solid gray 1PX;
+    margin-top: 5%;
+}
+
+body {
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+    font-family: 'Pacifico', cursive;
+}
+
+#victoire, #defaite {
+    text-align: center;
+}
