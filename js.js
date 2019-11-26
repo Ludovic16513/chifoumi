@@ -2,14 +2,11 @@ var choix1 = document.getElementById('item');
 var choix2 = document.getElementById('item2');
 var choix3 = document.getElementById('item3');
 
+var nul = 0;
 var victoire = 0;
 var defaite = 0;
 var valid = 0;
 var IA1 = document.getElementById('IA1');
-
-
-
-
 
 
 choix1.addEventListener("click", function () {
@@ -24,7 +21,8 @@ choix1.addEventListener("click", function () {
         victoire = victoire +1;
     }
     else if  ( valid === 1 && alea === 1){
-
+        compteurvic.innerHTML = 'PARADE ' +nul ;
+        nul = nul +1;
     }
 
     else if  ( valid === 1 && alea === 3){
@@ -62,6 +60,7 @@ choix2.addEventListener("click", function () {
     valid = 2;
     var compteurvic = document.getElementById('victoire');
     var compteurdef = document.getElementById('defaite');
+    var compteurnul = document.getElementById('nul');
 
     if ( valid === 2 && alea === 3){
         compteurvic.innerHTML = 'COUPS ENVOYES ' +victoire ;
@@ -70,6 +69,8 @@ choix2.addEventListener("click", function () {
 
     else if
     (valid === 2 && alea === 2){
+        compteurvic.innerHTML = 'PARADE ' +nul ;
+        nul = nul +1;
     }
     else if
     (valid === 2 && alea === 1){
@@ -111,6 +112,8 @@ choix3.addEventListener("click", function () {
     }
 
     else if (valid === 3 && alea === 3){
+        compteurvic.innerHTML = 'PARADE ' +nul ;
+        nul = nul +1;
     }
 
     else if (valid === 3 && alea === 2){
