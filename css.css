@@ -2,16 +2,13 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: solid gray 1PX;
     margin-left: 33%;
     margin-right: 33%;
-    background-image: url("ring.jpg");
-    background-size: 45%;
+    margin-top: 5%;
 }
 
 #item:hover, #item2:hover , #item3:hover  {
-    border: grey solid 1px;
-    border-radius: 50px;
+    border: 2px solid black;
 }
 
 #container2{
@@ -23,18 +20,65 @@
 #IA1
 {
     background-repeat: no-repeat;
-    width: 250PX;
-    height: 250px;
+    width: 100px;
+    height: 100px;
     border-radius: 140PX;
-    border: solid gray 1PX;
-    margin-top: 5%;
+    margin-left: 28%;
+    margin-top: -1%;
 }
 
 body {
-@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
-    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    font-family: 'Faster One', cursive;
+    background-image: url("dark.jpg");
 }
 
 #victoire, #defaite, #nul {
     text-align: center;
 }
+
+#portaits{
+display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#joueur {
+    width: 200px;
+    height: 200px;
+}
+
+#adversaire {
+    width: 200px;
+    height: 200px;
+    border-radius: 59%;
+}
+
+#texte {
+    margin-top: 5%;
+    text-align: center;
+    color: rgba(255,255,255,.3);
+    background: #1a1a1a;
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+
+#vs{
+    font-size: 30PX;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+#rejouer{
+    text-align: center;
+    margin-top: 2%;
+}
+
+#bouton {
+    width: 15%;
+    height: 15%;
+}
+
+#cyriakdiv {
+    width: 200px;
+    height: 200px;
+}
+
